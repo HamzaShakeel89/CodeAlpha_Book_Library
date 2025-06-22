@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Book Library</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>📚 Professional Book Library</h1>
+    </header>
+
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search for books..." />
+      <select id="category">
+        <option value="All">All Categories</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Programming">Programming</option>
+        <option value="Biography">Biography</option>
+        <option value="Fantasy">Fantasy</option>
+      </select>
+    </div>
+
+    <section class="library" id="bookList"></section>
+
+    <section class="history">
+      <h2>📖 Borrowing History</h2>
+      <ul id="historyList"></ul>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
